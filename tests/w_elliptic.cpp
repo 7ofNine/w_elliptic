@@ -18,9 +18,9 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "../src/w_elliptic.hpp"
-
 #define BOOST_TEST_MODULE w_elliptic_test
+
+#include "../src/w_elliptic.hpp"
 #include <boost/test/unit_test.hpp>
 
 #include <algorithm>
