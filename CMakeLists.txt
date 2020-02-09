@@ -21,7 +21,7 @@ option(BUILD_TESTS "Build test set." OFF)
 option(BUILD_PYTHON_BINDINGS "Build the Python bindings." OFF)
 
 # Setup compiler.
-include(w_ellipticCompilerLinkerSettings)
+include(YACMACompilerLinkerSettings)
 
 # Tests setup.
 if(BUILD_TESTS)
